@@ -1,21 +1,21 @@
 export class Rect {
-    constructor(pos, size) {
-        this.pos = pos;
-        this.size = size;
-    }
+	constructor(pos, size) {
+		this.pos = pos;
+		this.size = size;
+	}
 
-    draw(renderer) {
-        renderer.fillRect(this.pos, this.size);
-    }
+	draw(renderer) {
+		renderer.fillRect(this.pos, this.size);
+	}
 }
 
 export class Line {
-    constructor(from, to) {
-        this.from = from;
-        this.to = to;
-    }
+	constructor(from, to) {
+		this.from = from;
+		this.to = to;
+	}
 
-    draw(renderer) {
-        renderer.drawLine(this.from, this.to);
-    }
+	draw(renderer) {
+		renderer.drawLine(this.from, this.to);
+	}
 }
